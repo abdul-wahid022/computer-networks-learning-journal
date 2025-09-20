@@ -255,4 +255,4 @@ End Devices (Individual)
 
 ---
 
-**[← Back to Main Repository](../../)** | **[Next: IP Addressing →](../02-IP-Addressing/)**
+**[← Back to Main Repository](../../)** | **[Next: IP Addressing →](../02-IP-Addressing-Fundametals.md/)**
