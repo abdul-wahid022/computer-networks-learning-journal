@@ -255,4 +255,6 @@ End Devices (Individual)
 
 ---
 
-**[← Back to Main Repository](../../)** | **[Next: IP Addressing →](../02-IP-Addressing-Fundamentals.md/)**
+---
+## Navigation Links
+**[← Back to Week 1](../W1%20Network%20Fundamentals.md)** | **[Next: IP Addressing Fundamentals →](02-IP%20Addressing%20Fundamentals.md)**
