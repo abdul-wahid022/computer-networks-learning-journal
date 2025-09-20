@@ -236,11 +236,11 @@ End Devices (Individual)
 ---
 
 ## Further Reading
-
+---
 ### Next Topics to Study:
-1. **[IP Addressing](../02-IP-Addressing/)** - How devices get unique addresses
-2. **[DHCP Protocol](../03-DHCP-Protocol/)** - Automatic network configuration
-3. **[Standards Organizations](../04-Standards-Organizations/)** - Who creates internet standards
+1. **[IP Addressing](02-IP%20Addressing%20Fundamentals.md)** - How devices get unique addresses
+2. **[DHCP Protocol](03-DHCP%20Protocol.md)** - Automatic network configuration
+3. **[Standards Organizations](04-Standards%20Organization.md)** - Who creates internet standards
 
 ### Related Concepts to Explore:
 - **OSI Model** - Seven-layer network model
