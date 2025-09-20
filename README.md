@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="./Weekly-Progress/Images/1.jpg" alt="Computer Networks" width="800"/>
+</p>
+
+# 🌐 Computer Networks Study Guide
+> A comprehensive, week-by-week journey through networking fundamentals - from basic concepts to advanced protocols
+
 # Computer Networks Study Guide
 
 A comprehensive study guide covering fundamental networking concepts, protocols, and implementation details.
