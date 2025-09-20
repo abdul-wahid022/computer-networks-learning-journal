@@ -4,7 +4,8 @@ Welcome to the foundation of computer networking! This week covers the essential
 
 ## 📚 Topics Covered This Week
 
-### 1. [Basic Networking Concepts](01-Basic-Networking-Concepts/)
+### 1. [01-Basic Networking Concepts.md](01-Basic%20Networking%20Concepts.md)
+**Duration:** 2-3 hours | **Level:** Beginner
 
 **What You'll Learn:**
 - Internet architecture and structure
@@ -19,7 +20,8 @@ Welcome to the foundation of computer networking! This week covers the essential
 - End-to-end communication principles
 - Network hierarchy and organization
 
-### 2. [IP Addressing Fundamentals](02-IP-Addressing-Fundamentals/)
+### 2. [02-IP Addressing Fundamentals.md](02-IP%20Addressing%20Fundamentals.md)
+**Duration:** 3-4 hours | **Level:** Intermediate
 
 **What You'll Learn:**
 - IPv4 address structure and format
@@ -34,7 +36,8 @@ Welcome to the foundation of computer networking! This week covers the essential
 - Network and broadcast addresses
 - Private vs. public IP ranges
 
-### 3. [DHCP Protocol](03-DHCP-Protocol/)
+### 3. [03-DHCP Protocol.md](03-DHCP%20Protocol.md)
+**Duration:** 2 hours | **Level:** Intermediate
 
 **What You'll Learn:**
 - Dynamic Host Configuration Protocol
@@ -49,7 +52,8 @@ Welcome to the foundation of computer networking! This week covers the essential
 - Lease renewal and release
 - Network configuration automation
 
-### 4. [Standards Organizations](04-Standards-Organizations/)
+### 4. [04-Standards Organization.md](04-Standards%20Organization.md)
+**Duration:** 1-2 hours | **Level:** Beginner
 
 **What You'll Learn:**
 - IETF and RFC system
@@ -78,10 +82,10 @@ By the end of this week, you should be able to:
 
 | Resource | Description | Link |
 |----------|-------------|------|
-| **Concept Overview** | Visual network architecture | [Basic Concepts →](01-Basic-Networking-Concepts/) |
-| **IP Calculator** | Practice address calculations | [IP Addressing →](02-IP-Addressing-Fundamentals/) |
-| **DHCP Simulator** | Understand automatic configuration | [DHCP Protocol →](03-DHCP-Protocol/) |
-| **RFC Repository** | Explore internet standards | [Standards Orgs →](04-Standards-Organizations/) |
+| **Concept Overview** | Visual network architecture | [01-Basic Networking Concepts.md](01-Basic%20Networking%20Concepts.md) |
+| **IP Calculator** | Practice address calculations | [02-IP Addressing Fundamentals.md](02-IP%20Addressing%20Fundamentals.md) |
+| **DHCP Simulator** | Understand automatic configuration | [03-DHCP Protocol.md](03-DHCP%20Protocol.md) |
+| **RFC Repository** | Explore internet standards | [04-Standards Organization.md](04-Standards%20Organization.md) |
 
 ## 🧠 Key Terminology This Week
 
@@ -92,6 +96,7 @@ By the end of this week, you should be able to:
 - **CIDR**: Method for describing network address ranges
 - **DHCP**: Protocol for automatic network configuration
 - **RFC**: Request for Comments - internet standards documents
+
 ---
 
 ### 📞 Need Help?
@@ -101,3 +106,9 @@ By the end of this week, you should be able to:
 - **Found errors?** Please report them via GitHub Issues
 - **Study group?** Join discussions in GitHub Discussions
 
+**Ready to dive deep into networking? Let's start with [01-Basic Networking Concepts.md](01-Basic%20Networking%20Concepts.md)!**
+
+---
+
+## Navigation Links
+**[← Back to Weekly Progress](../README.md)** | **[Next: 01-Basic Networking Concepts →](01-Basic%20Networking%20Concepts.md)**
