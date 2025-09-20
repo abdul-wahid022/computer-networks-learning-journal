@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="./Weekly-Progress/Images/1.jpg" alt="Computer Networks" width="800"/>
+  <img src="./Weekly-Progress/Images/1.png" alt="Computer Networks" width="800"/>
 </p>
-
-> A comprehensive, week-by-week journey through networking fundamentals - from basic concepts to advanced protocols
 
 ## Repository Structure
 ---
