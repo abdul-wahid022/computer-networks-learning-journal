@@ -6,10 +6,10 @@ A comprehensive study guide covering fundamental networking concepts, protocols,
 ---
 
 ### Week 1: Network Fundamentals
-- **[Basic Networking Concepts](01-Basic%20Networking%20Concepts.md)** - Internet, Protocols, Network Architecture
-- **[IP Addressing & Subnetting](02-IP%20Addressing%20Fundamentals.md)** - IPv4 Structure, CIDR, Subnet Masks
-- **[DHCP Protocol](03-DHCP%20Protocol.md)** - Dynamic Host Configuration Protocol
-- **[Standards Organizations](04-Standards%20Organization.md)** - RFC, IETF, Internet Standards
+- **[Basic Networking Concepts](Weekly-Progress/Week-1/01-Basic%20Networking%20Concepts.md)** - Internet, Protocols, Network Architecture
+- **[IP Addressing Fundamentals](Weekly-Progress/Week-1/02-IP%20Addressing%20Fundamentals.md)** - IPv4 Structure, CIDR, Subnet Masks
+- **[DHCP Protocol](Weekly-Progress/Week-1/03-DHCP%20Protocol.md)** - Dynamic Host Configuration Protocol
+- **[Standards Organizations](Weekly-Progress/Week-1/04-Standards%20Organization.md)** - RFC, IETF, Internet Standards
 
 ### Week 2: Access Networks
 - Coming Soon...
