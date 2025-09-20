@@ -1,5 +1,4 @@
 
-![Alt](https://repobeats.axiom.co/api/embed/5a45a201f2b0bee1ac0e5e5759e554e934edbdc5.svg "Repobeats analytics image")
 <p align="center">
   <img src="./Weekly-Progress/Images/1.png" alt="Computer Networks" width="800"/>
 </p>
