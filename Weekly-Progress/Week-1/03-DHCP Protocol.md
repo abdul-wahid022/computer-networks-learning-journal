@@ -449,5 +449,5 @@ DHCP transforms networking from complex manual configuration to plug-and-play au
 4. **Troubleshoot DHCP conflicts** in a test environment
 
 ---
-
-**[← Back to IP Addressing](../02-IP-Addressing/)** | **[Next: Standards Organizations →](../04-Standards-Organizations/)**
+## Navigation Links  
+**[← Back to IP Addressing Fundamentals](02-IP%20Addressing%20Fundamentals.md)** | **[Next: Standards Organization →](04-Standards%20Organization.md)**
