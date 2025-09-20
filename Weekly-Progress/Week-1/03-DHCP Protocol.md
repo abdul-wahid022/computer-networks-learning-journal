@@ -432,7 +432,7 @@ DHCP transforms networking from complex manual configuration to plug-and-play au
 ## Further Reading
 
 ### Next Topics:
-1. **[Standards Organizations](../04-Standards-Organizations/)** - RFC and IETF
+1. **[Standards Organizations](04-Standards%20Organization.md)** - RFC and IETF
 2. **Access Networks** - Connection methods to the internet
 3. **Network Services** - DNS, NTP, and other services
 
