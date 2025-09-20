@@ -389,5 +389,7 @@ Imagine if there were no internet standards:
 - **Rough consensus** - broad agreement without unanimity
 - **Running code** - standards must be implementable
 - **Global perspective** - considers worldwide needs
-
 ---
+
+## Navigation Links
+**[← Back to DHCP Protocol](03-DHCP%20Protocol.md)** | **[Back to Week 1 Overview](W1%20Network%20Fundamentals.md)**
