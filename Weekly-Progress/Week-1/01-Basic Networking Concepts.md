@@ -5,6 +5,11 @@ Understanding the fundamental building blocks of computer networks.
 ## Table of Contents
 - [Internet](#internet)
 - [Protocols](#protocols)
+- [Network Types](#network-types)
+- [Network Topologies](#network-topologies)
+- [Connection Types](#connection-types)
+- [Transmission Modes](#transmission-modes)
+- [Network Devices](#network-devices)
 - [Network Architecture](#network-architecture)
   - [Network Edge](#network-edge)
   - [Network Core](#network-core)
@@ -68,6 +73,162 @@ Transport Layer      →    TCP, UDP
 Network Layer        →    IP
 Physical Layer       →    Ethernet, WiFi
 ```
+
+---
+
+## Network Types
+
+Networks are classified based on their geographical coverage and scope.
+
+### **LAN (Local Area Network)**
+- **Definition**: Network within a small geographical area (office, home, school)
+- **Range**: Up to 1-2 kilometers
+- **Characteristics**: High speed, low latency, private ownership
+- **Examples**: Office network, home WiFi, school computer lab
+
+### **MAN (Metropolitan Area Network)**
+- **Definition**: Network covering a city or large campus
+- **Range**: 5-50 kilometers
+- **Characteristics**: Medium speed, connects multiple LANs
+- **Examples**: City-wide WiFi, university campus network, cable TV networks
+
+### **WAN (Wide Area Network)**
+- **Definition**: Network covering large geographical areas (countries, continents)
+- **Range**: Unlimited (global)
+- **Characteristics**: Lower speed, high latency, expensive
+- **Examples**: Internet, corporate networks across cities, satellite networks
+
+### **PAN (Personal Area Network)**
+- **Definition**: Network for personal devices within very short range
+- **Range**: 1-10 meters
+- **Characteristics**: Very short range, low power, personal use
+- **Examples**: Bluetooth connections, wireless mouse/keyboard, smartwatch to phone
+
+### **CAN (Campus Area Network)**
+- **Definition**: Network connecting multiple buildings within a campus
+- **Range**: 1-5 kilometers
+- **Characteristics**: Between LAN and MAN, owned by single organization
+- **Examples**: University campus, corporate headquarters, hospital complex
+
+---
+
+## Network Topologies
+
+Network topology refers to the physical or logical arrangement of devices in a network.
+
+### **Bus Topology**
+- **Structure**: All devices connected to single central cable (backbone)
+- **Advantages**: Simple, cost-effective, easy to implement
+- **Disadvantages**: Single point of failure, performance degrades with more devices
+- **Use Case**: Small networks, temporary setups
+
+### **Star Topology**
+- **Structure**: All devices connected to central hub/switch
+- **Advantages**: Easy to manage, no single point of failure for nodes
+- **Disadvantages**: Central hub failure affects entire network
+- **Use Case**: Most common in modern offices and homes
+
+### **Ring Topology**
+- **Structure**: Devices connected in circular chain
+- **Advantages**: Equal access for all devices, predictable performance
+- **Disadvantages**: One device failure can break entire network
+- **Use Case**: Token Ring networks (mostly legacy)
+
+### **Mesh Topology**
+- **Structure**: Every device connected to every other device
+- **Types**: Full Mesh (all-to-all), Partial Mesh (some-to-some)
+- **Advantages**: Highly reliable, multiple paths available
+- **Disadvantages**: Expensive, complex to manage
+- **Use Case**: Critical networks, internet backbone
+
+### **Tree (Hierarchical) Topology**
+- **Structure**: Combines star and bus topologies in hierarchy
+- **Advantages**: Scalable, organized structure
+- **Disadvantages**: Complex, dependent on root node
+- **Use Case**: Large organizations, ISP networks
+
+### **Hybrid Topology**
+- **Structure**: Combination of two or more topologies
+- **Advantages**: Flexible, can optimize for specific needs
+- **Disadvantages**: Complex design and management
+- **Use Case**: Large enterprise networks
+
+---
+
+## Connection Types
+
+How devices connect and communicate within a network.
+
+### **Point-to-Point**
+- **Definition**: Direct connection between exactly two devices
+- **Characteristics**: Dedicated channel, full bandwidth available
+- **Examples**: Direct cable between two computers, leased line between offices
+- **Advantages**: Simple, secure, reliable, full bandwidth
+- **Disadvantages**: Not scalable, expensive for multiple connections
+
+### **Multi-Point (Broadcast)**
+- **Definition**: Multiple devices share the same communication channel
+- **Characteristics**: Shared bandwidth, broadcast communication
+- **Examples**: Ethernet network, WiFi network, satellite communication
+- **Advantages**: Cost-effective, easy to add devices
+- **Disadvantages**: Shared bandwidth, collision management needed
+
+---
+
+## Transmission Modes
+
+How data flows between communicating devices.
+
+### **Simplex**
+- **Definition**: Data flows in only ONE direction
+- **Characteristics**: Unidirectional, no feedback possible
+- **Examples**: Radio broadcasting, television broadcasting, keyboard to computer
+- **Use Case**: When feedback is not required
+
+### **Half Duplex**
+- **Definition**: Data flows in BOTH directions, but only ONE at a time
+- **Characteristics**: Bidirectional but not simultaneous
+- **Examples**: Walkie-talkies, CB radio, some WiFi communications
+- **Use Case**: When bidirectional communication needed but simultaneous not required
+
+### **Full Duplex**
+- **Definition**: Data flows in BOTH directions SIMULTANEOUSLY
+- **Characteristics**: Bidirectional and simultaneous
+- **Examples**: Telephone calls, modern Ethernet, fiber optic cables
+- **Use Case**: Most modern network communications, real-time applications
+
+---
+
+## Network Devices
+
+Key hardware components that enable network communication.
+
+### **Switches**
+- **Definition**: Intelligent device that connects devices within same network (LAN)
+- **Function**: 
+  - Learns MAC addresses of connected devices
+  - Forwards data only to intended recipient
+  - Creates separate collision domains
+- **OSI Layer**: Data Link Layer (Layer 2)
+- **Example**: Office switch connecting computers, printers, servers
+
+### **Routers**
+- **Definition**: Device that connects different networks and routes data between them
+- **Function**:
+  - Routes data between different networks
+  - Maintains routing tables
+  - Determines best path for data
+- **OSI Layer**: Network Layer (Layer 3)
+- **Example**: Home router connecting your LAN to internet, ISP routers
+
+### **Default Gateway**
+- **Definition**: Router that serves as access point for devices to reach other networks
+- **Function**:
+  - Entry/exit point for local network
+  - Routes traffic to external networks
+  - Usually the router's IP address
+- **Configuration**: Set in device network settings (often automatically via DHCP)
+- **Example**: Your home router's IP (typically 192.168.1.1 or 192.168.0.1)
 
 ---
 
@@ -207,6 +368,27 @@ This is the "user experience" view - what the network enables people to accompli
 
 Understanding how these concepts work together:
 
+### Network Type Hierarchy:
+```
+PAN (Personal) → LAN (Local) → CAN (Campus) → MAN (Metropolitan) → WAN (Wide)
+```
+
+### Topology Selection:
+- **Small networks**: Bus or Star topology
+- **Medium networks**: Tree or Hybrid topology
+- **Critical systems**: Mesh topology for redundancy
+- **Large enterprises**: Hybrid topology combining multiple types
+
+### Device Interaction:
+- **Switches** connect devices within same network (LAN level)
+- **Routers** connect different networks (between LANs, to WAN)
+- **Default Gateway** is typically your local router's address
+
+### Transmission Mode Applications:
+- **Simplex**: Broadcasting, sensor data collection
+- **Half Duplex**: Cost-effective bidirectional communication
+- **Full Duplex**: Modern high-performance networks
+
 ### Edge to Core Connection:
 - **Devices create edge points** - every computer, phone, etc. is an edge device
 - **Infrastructure forms the core** - routers, switches, cables connect the edges
@@ -224,13 +406,13 @@ Understanding how these concepts work together:
 
 ### Network Hierarchy:
 ```
-Internet (Global)
+Internet (Global WAN)
     ↓
-ISP Networks (Regional)
+ISP Networks (Regional WAN/MAN)
     ↓
-Local Networks (Organizations)
+Local Networks (LAN/CAN)
     ↓
-End Devices (Individual)
+End Devices (PAN level)
 ```
 
 ---
@@ -241,19 +423,6 @@ End Devices (Individual)
 1. **[IP Addressing](02-IP%20Addressing%20Fundamentals.md)** - How devices get unique addresses
 2. **[DHCP Protocol](03-DHCP%20Protocol.md)** - Automatic network configuration
 3. **[Standards Organizations](04-Standards%20Organization.md)** - Who creates internet standards
-
-### Related Concepts to Explore:
-- **OSI Model** - Seven-layer network model
-- **TCP/IP Model** - Four-layer internet model
-- **Network Topologies** - How networks are physically arranged
-- **Network Security** - Protecting network communications
-
-### Practical Exercises:
-1. **Identify your network edge**: Find your router's IP address and trace your connection
-2. **Protocol observation**: Use browser developer tools to see HTTP requests
-3. **Network mapping**: Draw your home network from device to internet
-
----
 
 ---
 ## Navigation Links
