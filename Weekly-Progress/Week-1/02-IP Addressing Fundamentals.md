@@ -629,4 +629,6 @@ Generally avoid leading zeros
 
 ---
 
-**🎯 Ready to move on?** Next topic: **[DHCP Protocol](../03-DHCP-Protocol/)** - Learn how devices automatically get their IP configurations!
+---
+## Navigation Links
+**[← Back to Basic Networking Concepts](01-Basic%20Networking%20Concepts.md)** | **[Next: DHCP Protocol →](03-DHCP%20Protocol.md)**
