@@ -392,4 +392,4 @@ Imagine if there were no internet standards:
 ---
 
 ## Navigation Links
-**[← Back to DHCP Protocol](03-DHCP%20Protocol.md)** | **[Back to Week 1 Overview](#W1%20Network%20Fundamentals.md)**
+**[← Back to DHCP Protocol](03-DHCP%20Protocol.md)** | **[Back to Week 1 Overview](%23W1%20Network%20Fundamentals.md)**
