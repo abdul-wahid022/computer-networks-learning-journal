@@ -11,7 +11,7 @@
 - **[IP Addressing Fundamentals](Weekly-Progress/Week-1/02-IP%20Addressing%20Fundamentals.md)** - IPv4 Structure, CIDR, Subnet Masks
 - **[DHCP Protocol](Weekly-Progress/Week-1/03-DHCP%20Protocol.md)** - Dynamic Host Configuration Protocol
 - **[Standards Organizations](Weekly-Progress/Week-1/04-Standards%20Organization.md)** - RFC, IETF, Internet Standards
-
+.
 ### Week 2: Access Networks
 - Coming Soon...
 
