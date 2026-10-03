@@ -1,7 +1,7 @@
 
 <p align="center">
   <img src="./Weekly-Progress/Images/1.png" alt="Computer Networks" width="800"/>
-</p>
+</p>c
 
 ## Repository Structure
 ---
