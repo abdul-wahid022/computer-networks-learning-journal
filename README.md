@@ -3,7 +3,7 @@
   <img src="./Weekly-Progress/Images/1.png" alt="Computer Networks" width="800"/>
 </p>cc
 
-## Repository Structure
+## Repository Structure 
 ---
 
 ### Week 1: Network Fundamentals
